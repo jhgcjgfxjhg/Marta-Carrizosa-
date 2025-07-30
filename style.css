@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Marta Carrizosa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hola, soy Marta 👋</h1>
+    <p>Bienvenida a mi sitio personal en GitHub Pages</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre mí</h2>
+      <p>Soy estudiante/creadora/apasionada por la tecnología (modifica este texto como quieras).</p>
+    </section>
+
+    <section>
+      <h2>Proyectos</h2>
+      <ul>
+        <li><a href="#">Proyecto 1</a></li>
+        <li><a href="#">Proyecto 2</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Marta Carrizosa — Hecho con ❤️ y GitHub Pages</p>
+  </footer>
+</body>
+</html>
+/* style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background: #4b6cb7;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li a {
+  color: #4b6cb7;
+  text-decoration: none;
+}
+
+footer {
+  background: #e0e0e0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
